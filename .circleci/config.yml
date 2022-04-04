@@ -64,7 +64,7 @@ jobs:
 
   comment-pr-after-deployment:
     docker:
-      - image: cimg/node:17.7
+      - image: cimg/node:17.8
     resource_class: small
     steps:
       - checkout
